@@ -5,7 +5,7 @@ import MainRoutes from "./MainRoutes";
 import LoginRoutes from "./LoginRoutes";
 
 // ==============================|| ROUTING RENDER ||============================== //
-const router = createBrowserRouter([MainRoutes, LoginRoutes], {
+const router = createBrowserRouter([MainRoutes, ...LoginRoutes], {
   basename: undefined,
 });
 
